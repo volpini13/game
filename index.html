@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <title>Game</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <!--CSS bootstrap-->
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="Controle de video game">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+        aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownConsole" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Consoles
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownConsole">
+              <a class="dropdown-item" href="ps.html">PlayStation</a>
+              <a class="dropdown-item" href="xbox.html">Xbox</a>
+            </div>
+          </li> 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMidia" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Midias
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMidia">
+              <a class="dropdown-item" href="fotos.html">Fotos</a>
+              <a class="dropdown-item" href="video.html">Vídeos</a>
+            </div>
+          </li>
+
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="contatos.html">Contatos</a>
+          </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
+      </div>
+    </nav>
+    <!-- Banner -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/banner1.jpg" alt="Jogo God of War">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/banner2.jpg" alt="Jogo God of War">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/banner-gears.jpg" alt="Gears of War">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+
+    <section class="bg-light pb-3">
+      <h1 class="text-center py-3 text-success">Aqui você encontra os melhores jogos!</h1>
+
+      <div class="card-deck mx-1 text-center d-flex flex-sm-column flex-lg-row">
+        <article class="card border-success">
+          <img class="card-img-top" src="img/x_xbox.jpg" alt="Console Xbos series X">
+          <div class="card-body">
+            <h2 class="card-title">Xbox</h2>
+            <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução
+              a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
+            <a href="Xbox.html" class="btn btn-success">Saiba+</a>
+          </div>
+        </article>
+        <article class="card border-primary">
+          <img class="card-img-top" src="img/ps5.jpg" alt="Console PlayStation 5">
+          <div class="card-body">
+            <h2 class="card-title">PlayStation 5</h2>
+            <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um
+              conteúdo adicional.</p>
+            <a href="ps.html" class="btn btn-primary">Saiba+</a>
+          </div>
+        </article>
+        <article class="card border-danger">
+          <img class="card-img-top" src="img/jogo-mario.jpg" alt="Jogos de Videogame">
+          <div class="card-body">
+            <h2 class="card-title">Jogos</h2>
+            <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um
+              conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em
+              ação.</p>
+            <a href="fotos.html" class="btn btn-danger">Saiba+</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!--Footer-->
+
+    <footer class="container bg-dark text-light">
+      <div class="row py-3 d-flex flex-sm-column flex-lg-row text-center align-items-center">
+        <div class="col-sm-4 d-none d-md-none d-lg-block">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.765972159766!2d-46.577542724546824!3d-23.540918260841707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5ec26cfdcfed%3A0x49e7eb66fd4f1f2!2sSenac%20Tatuap%C3%A9%20-%20Cel.%20Lu%C3%ADs%20Americano!5e0!3m2!1spt-BR!2sbr!4v1727218932557!5m2!1spt-BR!2sbr" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-sm-4">
+          <img src="img/local.png" alt="Endereço do local">
+          <p>
+            Nome da Rua, 123 <br>
+            Nome do Bairro <br>
+            São Paulo - SP
+          </p>
+
+          <a href="mailto: seuemail@email.com?subject=Game">
+            <img src="img/email.png" alt="Enviar e-mail">
+          </a>
+          <p>seuemail@email.com</p>
+
+        </div>
+        <div class="col-sm-4">
+          <a href="https://api.whatsapp.com/send?phone=551101231234" target="_blank">
+            <img src="img/whatsapp.png" alt="Iniciar conversa com Whatsapp">
+          </a>
+          <p>(11) 01234-1234</p>
+          <img src="img/fone.png" alt="Telefone">
+          <p>(11) 1234-1234</p>
+        </div>
+
+      </div>
+  </div>
+  </footer>
+  <div class="bg-light text-center d-flex flex-column flex-lg-row justify-content-arround py3">
+    <div>
+      <p>&#169; Somente para fins educativos</p>
+
+    </div>
+    <div>
+      <a href="" target="_blank"><img src="img/linkedin.png" alt="Linkedin"></a>
+      <a href="" target="_blank"><img src="img/github.png" alt="GitHub"></a>
+      <a href="" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+      <a href="" target="_blank"><img src="img/facebook.png" alt="Facebook"></a>
+      <a href="" target="_blank"><img src="img/youtube.png" alt="YpuTube"></a>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  <!-- Script do Bootstrap: 1° jquery, 2° popper, 3° bootstrap -->
+  <script src="bootstrap/jquery-3.3.1.slim.min.js"></script>
+  <script src="bootstrap/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
